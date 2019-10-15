@@ -8,14 +8,13 @@ public class referenceandprimarytype {
         merchandise m5 = new merchandise();
 
         m1 = m5;
-
         System.out.println("m1 = " + m1);
         System.out.println("m1 = " + m2);
         System.out.println("m1 = " + m3);
         System.out.println("m1 = " + m4);
         System.out.println("m1 = " + m5);
 
-        merchandise m6;
+        merchandise m6;hang
         m6 = m5;
         System.out.println("m6 = " + m6);
         m6 = m1;
@@ -26,5 +25,6 @@ public class referenceandprimarytype {
         System.out.println("m1 = " + m3);
         System.out.println("m1 = " + m4);
         System.out.println("m1 = " + m5);
+
     }
 }
